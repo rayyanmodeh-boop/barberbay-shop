@@ -7,3 +7,14 @@
 
 .arrow-icon{width:14px;height:14px;display:inline-block;vertical-align:middle;flex-shrink:0}.scissors-icon{width:1em;height:1em;display:inline-block;vertical-align:middle}.brand-icon{transform:rotate(-15deg)}.map-pin>span{display:flex;justify-content:center;align-items:center}.about-visual>img{object-position:72% center}.hero-shade{background:linear-gradient(90deg,rgba(12,19,15,.92),rgba(12,19,15,.68) 40%,rgba(12,19,15,.08) 85%),linear-gradient(0deg,rgba(10,18,14,.6),transparent 35%)}
 @media(max-width:360px){.header{gap:9px}.header .brand{font-size:13px;gap:7px;letter-spacing:1.5px}.header .brand-sub{font-size:6px;letter-spacing:3px}.header .brand-icon{font-size:29px}.header .button.small{padding:9px 10px;gap:10px}.menu-toggle{padding:6px}h1{font-size:46px}.service-grid{grid-template-columns:1fr}.service-card{min-height:250px}.hero-rating{font-size:8px}.review-caption{flex-wrap:wrap}.hours>div{gap:10px}.hours dt{min-width:130px}}
+
+/* Visible social link in the opening section. */
+.hero-instagram{display:flex;align-items:center;gap:13px;width:fit-content;max-width:100%;margin-top:24px;padding:12px 16px;border:1px solid #c6a77780;background:#172019c9;color:#e4ceaa;transition:background .2s,border-color .2s}
+.hero-instagram:hover{background:#2d392be6;border-color:var(--gold)}
+.instagram-icon{width:25px;height:25px;flex-shrink:0}
+.hero-instagram>span{display:flex;flex-direction:column;gap:4px}
+.hero-instagram strong{font-size:12px;font-weight:600}
+.hero-instagram small{font-size:9px;color:#d0d5c8}
+.hero-instagram>.arrow-icon{margin-left:12px}
+.hero-instagram+.hero-rating{margin-top:24px}
+@media(max-width:700px){.hero-instagram{margin-top:23px;padding:12px 14px}.hero-instagram+.hero-rating{margin-top:22px}}
