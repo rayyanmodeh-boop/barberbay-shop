@@ -18,3 +18,17 @@
 .hero-instagram>.arrow-icon{margin-left:12px}
 .hero-instagram+.hero-rating{margin-top:24px}
 @media(max-width:700px){.hero-instagram{margin-top:23px;padding:12px 14px}.hero-instagram+.hero-rating{margin-top:22px}}
+
+/* Simplified content and calmer spacing. Revert this commit to restore the previous design. */
+.hero-content{padding-top:80px;padding-bottom:70px}
+.hero{min-height:640px}
+.about-visual{height:340px;margin-right:0}
+.section{padding-top:72px;padding-bottom:72px}
+.service-card{min-height:235px}
+.card-top{margin-bottom:24px}
+.review-quotes{padding:0}
+.review-quotes h3{font-size:27px;margin-bottom:16px}
+.review-quotes .review-summary{font-size:10px;margin-bottom:0;color:#747b6d}
+.footer-main>a:last-child{margin-left:auto}
+@media(max-width:700px){.hero-content{padding-top:58px;padding-bottom:55px}.hero{min-height:0}.section{padding-top:48px;padding-bottom:48px}.about-visual{height:280px}.about{gap:26px}.service-card{min-height:250px}.review-intro h2{font-size:38px}.reviews{gap:28px}.footer-main{flex-wrap:nowrap}.footer-main>a:last-child{font-size:8px}.footer-bottom>a{margin-left:auto}}
+@media(max-width:360px){.service-card{min-height:220px}}
